@@ -1,0 +1,261 @@
+@font-face {
+	font-family: 'Musket Bold';
+	src: url('../fonts/Musket-Bold.eot');
+	src: url('../fonts/Musket-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Musket-Bold.woff') format('woff'),
+		url('../fonts/Musket-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html {
+background-color: #0E1319;
+height:100%;
+overflow:auto;
+
+}
+
+.flexheader{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+    
+}
+
+.bodycontainer{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+    
+}
+
+.SherlockHolmes{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+    
+}
+
+.DrWatson{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+    
+}
+
+.Moriarty{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+    
+}
+
+.IreneAdler{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+    
+}
+
+.SilverScreen{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+    
+}
+       
+.house{
+    
+width:100%;
+height: 100%;
+position:relative;
+    
+}
+
+.logo{
+    
+z-index:1;
+margin-left:1%;
+width:37%;
+position:absolute;
+    
+}
+
+h1{
+    
+color:white;
+font-size:6em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+bottom:6%;    
+    
+}
+
+h2{
+    
+color:white;
+font-size:3.5em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+top:5%;    
+    
+}
+
+p{
+    
+color:white;
+width:50%;
+font-size:1.2em; 
+font-family:montserrat;
+    
+}
+
+blockquote{
+    
+color:white;
+font-size:1em;
+font-family:montserrat;
+    
+}
+
+a{
+
+text-decoration: none;
+color:#F4815E;
+    
+}
+
+footer{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:10%;
+background-color: #0E1319;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+color:white;
+font-size:1.2em; 
+font-family:montserrat;
+    
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	background:white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    bottom:5%;
+    position:relative;
+}
+
+.pin {
+	width: 5%;
+    bottom:5%;
+    position:relative;
+}
+
+.pipe {
+	width: 5%;
+    bottom:5%;
+    position:relative;
+}
+
+.mustache {
+	width: 5%;
+    bottom:5%;
+    position:relative;
+}
+
+.gun {
+	width: 5%;
+    bottom:5%;
+    position:relative;
+}
+
+.lips {
+	width: 5%;
+    bottom:5%;
+    position:relative;
+}
+
+.film {
+	width: 5%;
+    bottom:5%;
+    position:relative;
+}
+
+.flexheader,
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#cont {
+  position: relative;
+  height: 100%;
+}
+#cont a {
+  position: absolute;
+  bottom: 55px;
+  left: 350px;
+}
+.foo img:last-child {
+  display: none;
+}
+.foo:hover img:first-child {
+  display: none;
+}
+.foo:hover img:last-child {
+  display: inline-block;
+}
