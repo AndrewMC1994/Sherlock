@@ -11,6 +11,7 @@
 body, html {
 background-color: #0E1319;
 height:100%;
+width:100%;
 overflow:auto;
 
 }
@@ -30,7 +31,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -44,7 +45,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -72,7 +73,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -86,7 +87,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -100,7 +101,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -142,8 +143,8 @@ color:white;
 font-size:3.5em; 
 font-family: 'Musket Bold'; 
 text-transform: uppercase;
-position:relative;
-top:5%;    
+margin-top:9%; 
+position:relative;   
     
 }
 
@@ -188,74 +189,44 @@ font-family:montserrat;
     
 }
 
-.circle {
-	width: 20px;
-	height: 20px;
-	background:white;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-    bottom:5%;
-    position:relative;
-}
-
 .pin {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .pipe {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .mustache {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .gun {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .lips {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .film {
 	width: 5%;
     bottom:5%;
     position:relative;
-}
-
-.flexheader,
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-#cont {
-  position: relative;
-  height: 100%;
-}
-#cont a {
-  position: absolute;
-  bottom: 55px;
-  left: 350px;
-}
-.foo img:last-child {
-  display: none;
-}
-.foo:hover img:first-child {
-  display: none;
-}
-.foo:hover img:last-child {
-  display: inline-block;
+    margin-bottom:1%;
 }
