@@ -234,28 +234,3 @@ font-family:montserrat;
     bottom:5%;
     position:relative;
 }
-
-.flexheader,
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-#cont {
-  position: relative;
-  height: 100%;
-}
-#cont a {
-  position: absolute;
-  bottom: 55px;
-  left: 350px;
-}
-.foo img:last-child {
-  display: none;
-}
-.foo:hover img:first-child {
-  display: none;
-}
-.foo:hover img:last-child {
-  display: inline-block;
-}
