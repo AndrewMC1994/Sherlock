@@ -11,6 +11,7 @@
 body, html {
 background-color: #0E1319;
 height:100%;
+min-width:100%;
 overflow:auto;
 
 }
@@ -21,6 +22,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 position: relative;
+height:100%;
     
 }
 
@@ -30,7 +32,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -44,7 +46,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -72,7 +74,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -86,7 +88,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -100,7 +102,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:100%;
+min-height:100%;
 background-color: #131B25;
 background-size: cover;
 position: relative;
@@ -142,8 +144,8 @@ color:white;
 font-size:3.5em; 
 font-family: 'Musket Bold'; 
 text-transform: uppercase;
-position:relative;
-top:5%;    
+top:100px; 
+position:relative;   
     
 }
 
@@ -153,6 +155,7 @@ color:white;
 width:50%;
 font-size:1.2em; 
 font-family:montserrat;
+line-height:1.3em;
     
 }
 
@@ -188,74 +191,422 @@ font-family:montserrat;
     
 }
 
-.circle {
-	width: 20px;
-	height: 20px;
-	background:white;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-    bottom:5%;
-    position:relative;
-}
-
 .pin {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .pipe {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .mustache {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .gun {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .lips {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
 .film {
 	width: 5%;
     bottom:5%;
     position:relative;
+    margin-bottom:1%;
 }
 
-.flexheader,
+/* Media Queries */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+
+
+{
+    
+.pin, .pipe, .mustache, .gun, .lips, .film  {
+	width: 10%;
+    bottom:3%;
+    position:relative;
+    margin-bottom:1%;
+}
+    
+    
+ h1{
+    
+color:white;
+font-size:4em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+bottom:6%;
+    
+}
+
+h2{
+    
+color:white;
+font-size:2em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+top:40px; 
+position:relative;   
+    
+}
+
+p{
+    
+color:white;
+width:80%;
+font-size:1.2em; 
+font-family:montserrat;
+text-align: left;
+line-height: 30px;
+    
+    }
+    
+.flexheader{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+height:40%;
+    
+}
+      
+.house{
+    
+width:100%;
+height: 100%;
+position:relative;
+    
+}
+    
+.bodycontainer{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+    
+}
+    
+}
+    
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+    
+    {
+        
+        
+    
+.flexheader{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+height:70%;
+    
+}
+      
+.house{
+    
+width:100%;
+height: 100%;
+position:relative;
+    
+} 
+        
+h1{
+    
+color:white;
+font-size:4.5em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+bottom:6%;
+    
+}
+
+h2{
+    
+color:white;
+font-size:2em; 
+
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+top:70px; 
+position:relative;   
+    
+}
+
+p{
+    
+color:white;
+width:80%;
+font-size:1.2em; 
+font-family:montserrat;
+text-align: left;
+    
+}
+
+blockquote{
+    
+color:white;
+font-size:1em;
+font-family:montserrat;
+    
+}
+        
+.pin, .pipe, .mustache, .gun, .lips, .film  {
+	width: 10%;
+    bottom:5%;
+    position:relative;
+    margin-bottom:1%;
+}
+        
+}
+    
+/* Mac Book Pro 15" Retina  */
+@media only screen 
+   and (min-height : 1800px) 
+   and (min-width : 2880px) {
+    
 body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+background-color: #131B25;
+overflow:auto;
+
 }
-#cont {
-  position: relative;
-  height: 100%;
+         
+       
+.flexheader{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+height:80%;
+    
 }
-#cont a {
-  position: absolute;
-  bottom: 55px;
-  left: 350px;
+       
+.DrWatson{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:10%;
+
+    
 }
-.foo img:last-child {
-  display: none;
+      
+.house{
+    
+width:100%;
+height: 100%;
+position:relative;
+    
+} 
+        
+h1{
+    
+color:white;
+font-size:13em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+bottom:6%;
+    
 }
-.foo:hover img:first-child {
-  display: none;
+
+h2{
+    
+color:white;
+font-size:7em; 
+
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+top:220px; 
+position:relative;   
+    
 }
-.foo:hover img:last-child {
-  display: inline-block;
+
+p{
+    
+color:white;
+width:80%;
+font-size:3.5em; 
+font-family:montserrat;
+text-align: left;
+    
+}
+
+blockquote{
+    
+color:white;
+font-size:3em;
+font-family:montserrat;
+    
+}
+       
+.pin, .pipe, .mustache, .gun, .lips, .film  {
+	width: 8%;
+    bottom:5%;
+    position:relative;
+    margin-bottom:1%;
+}
+       
+       
+}
+
+/* Iphone 6 Plus */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      
+    
+body, html {
+background-color: #131B25;
+overflow:auto;
+
+}
+      
+
+.flexheader{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+height:30%;
+    
+}
+      
+.house{
+    
+width:100%;
+height: 100%;
+position:relative;
+    
+}
+      
+.DrWatson{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:60%;
+
+    
+}
+
+h1{
+    
+color:white;
+font-size:2em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+bottom:6%;
+    
+}
+
+h2{
+    
+color:white;
+font-size:2em; 
+
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+top:40px; 
+position:relative;   
+    
+}
+
+p{
+    
+color:white;
+width:80%;
+font-size:1.2em; 
+font-family:montserrat;
+text-align: left;
+    
+}
+
+blockquote{
+    
+color:white;
+font-size:1em;
+font-family:montserrat;
+    
+}
+
+a{
+
+text-decoration: none;
+color:#F4815E;
+    
+}
+
+footer{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:10%;
+background-color: #0E1319;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+color:white;
+font-size:1.2em; 
+font-family:montserrat;
+    
+}
+
+.pin, .pipe, .mustache, .gun, .lips, .film  {
+	width: 15%;
+    bottom:5%;
+    position:relative;
+    margin-bottom:1%;
+}
+
 }
