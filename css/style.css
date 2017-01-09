@@ -11,7 +11,11 @@
 body, html {
 background-color: #0E1319;
 height:100%;
+<<<<<<< HEAD
 min-width:100%;
+=======
+width:100%;
+>>>>>>> origin/master
 overflow:auto;
 
 }
@@ -144,7 +148,11 @@ color:white;
 font-size:3.5em; 
 font-family: 'Musket Bold'; 
 text-transform: uppercase;
+<<<<<<< HEAD
 top:100px; 
+=======
+margin-top:9%; 
+>>>>>>> origin/master
 position:relative;   
     
 }
@@ -231,6 +239,7 @@ font-family:montserrat;
     bottom:5%;
     position:relative;
     margin-bottom:1%;
+<<<<<<< HEAD
 }
 
 /* Media Queries */
@@ -490,12 +499,19 @@ font-family:montserrat;
        
 }
 
+=======
+}
+
+/* Media Queries */
+
+>>>>>>> origin/master
 /* Iphone 6 Plus */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
       
+<<<<<<< HEAD
     
 body, html {
 background-color: #131B25;
@@ -505,10 +521,23 @@ overflow:auto;
       
 
 .flexheader{
+=======
+body, html {
+background-color: #131B25;
+height:100%;
+width:100%;
+overflow:auto;
+
+}
+
+.DrWatson{
+    
+>>>>>>> origin/master
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+<<<<<<< HEAD
 position: relative;
 height:30%;
     
@@ -609,4 +638,85 @@ font-family:montserrat;
     margin-bottom:1%;
 }
 
+=======
+min-height:100%;
+background-color: #131B25;
+background-size: cover;
+position: relative;
+margin-top:60%;
+    
+}
+
+h1{
+    
+color:white;
+font-size:2em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+position:relative;
+bottom:6%;
+    
+}
+
+h2{
+    
+color:white;
+font-size:3.5em; 
+font-family: 'Musket Bold'; 
+text-transform: uppercase;
+margin-top:9%; 
+position:relative;   
+    
+}
+
+p{
+    
+color:white;
+width:80%;
+font-size:1.2em; 
+font-family:montserrat;
+text-align: left;
+    
+}
+
+blockquote{
+    
+color:white;
+font-size:1em;
+font-family:montserrat;
+    
+}
+
+a{
+
+text-decoration: none;
+color:#F4815E;
+    
+}
+
+footer{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:10%;
+background-color: #0E1319;
+background-size: cover;
+position: relative;
+margin-top:-1%;
+color:white;
+font-size:1.2em; 
+font-family:montserrat;
+    
+}
+
+.pin, .pipe, .mustache, .gun, .lips, .film  {
+	width: 15%;
+    bottom:5%;
+    position:relative;
+    margin-bottom:1%;
+}
+
+>>>>>>> origin/master
 }
